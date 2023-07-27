@@ -1,0 +1,58 @@
+.bg-pink{
+    background-color: pink;
+  }
+  
+  .bg-beige{
+    background-color: beige;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLight.ttf");
+    font-weight: 300;
+  }
+
+  *{
+    font-family: "Poppins";
+    color:whitesmoke;
+    background-color: black;
+  }
+
+  p{
+    color: aliceblue;
+    margin-top: 20px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a:link, a:visited {
+    background-color: black; 
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-family:"Poppins";
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:4px;
+    }
+  
+    a:hover, a:active {
+    background-color: purple;
+    }
+
+    footer{
+      text-align: center;
+    }
+
+    h1{
+      background-image:url("../img/background.png");
+    }
+    .body {
+      min-height: 100vh;
+    }
+    img{
+      width:100px;
+      
+    }
+    

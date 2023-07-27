@@ -1,0 +1,47 @@
+ul li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  display: inline-block;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+  font-weight: 300;
+}
+.texto p {
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top:0px;
+}
+
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: lightgray;
+  color: white;
+}
+img {
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a:link, a:visited {
+  background-color: lightgray; 
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 28px;
+  margin-top:4px;
+  }
+
+  a:hover, a:active {
+  background-color: purple;
+  display: inline-block;
+  }
