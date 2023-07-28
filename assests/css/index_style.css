@@ -37,11 +37,16 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-left: 28px;
+  margin-left: 20px;
   margin-top:4px;
   }
 
   a:hover, a:active {
   background-color: purple;
   display: inline-block;
+  }
+
+  #chakras{
+    color:blue;
+    background-color: aqua;
   }

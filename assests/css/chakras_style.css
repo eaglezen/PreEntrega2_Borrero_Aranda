@@ -1,0 +1,33 @@
+.bg-black{
+    background-image: url(../img/pexels-miguel-á-padriñán-255379.jpg);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLight.ttf");
+    font-weight: 300;
+  }
+
+  *{
+    font-family: "Poppins";
+  }
+
+  #enlace:link, #enlace:visited {
+    background-color: lightgray; 
+    color: blue;
+    padding: 15px 25px;
+    text-align: center;
+    font-family:"Poppins";
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:4px;
+    }
+  
+    #enlace:hover, #enlace:active {
+    background-color: purple;
+    }
+
+    footer{
+      text-align: center;
+    }
