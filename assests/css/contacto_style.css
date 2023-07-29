@@ -3,6 +3,14 @@ form input {
     width:225%
 }
 
+ul li {
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    display: inline-block;
+  }
+
 @font-face {
     font-family: "Montserrat";
     src: url("../fonts/Montserrat-SemiBold.ttf");
@@ -31,7 +39,8 @@ font-family: "Montserrat2";
 }
 
 .home {
-width: 4%;
+width: 7%;
+text-align: center;
     }
 
 h1 {
@@ -42,4 +51,8 @@ color: gray
 form input::placeholder{
 
     color: gray;
+}
+
+footer{
+    text-align: center;
 }
